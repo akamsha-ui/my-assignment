@@ -3,7 +3,7 @@ head(data)
 library(shiny)
 ui <- fluidPage(
   "Hello World !",
-  textInput("name", "Enter your name?:")
+  textInput("name", "Enter your name?:"),
   textOutput("q")
 )
 server <- function(input, output, session) {
